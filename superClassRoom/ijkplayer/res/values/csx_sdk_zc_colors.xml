@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_gray">#343C5D</color>
+	<color name="my_white">#f5f4f9</color>
+	<color name="my_light_red">#ff3399</color>
+	<color name="reveal_color">#1b000000</color>
+        <color name="darkgray">#a9a9a9</color> <!-- 暗灰色 -->
+    	<color name="gray">#ffaaaaaa</color>
+	<color name="transparent">#00000000</color>
+            <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="lightgray">#d3d3d3</color> <!-- 亮灰色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="darkslategray">#2f4f4f</color> <!-- 暗瓦灰色 -->
+	<color name="transparent_background">#b9000000</color>
+                <color name="lightblack">#999999</color> <!-- 淡黑色 -->
+                    <color name="gainsboro">#dcdcdc</color> <!-- 淡灰色   原值#dcdcdc-->
+
+</resources>

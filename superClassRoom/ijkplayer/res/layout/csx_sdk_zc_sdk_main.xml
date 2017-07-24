@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent_background" >
+
+    <Button
+        android:id="@+id/card"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/csx_sdk_zc_showcard" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/card"
+        android:text="名片"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/ring"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/csx_sdk_zc_myshow" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ring"
+        android:layout_below="@+id/card"
+        android:text="彩秀"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</RelativeLayout>

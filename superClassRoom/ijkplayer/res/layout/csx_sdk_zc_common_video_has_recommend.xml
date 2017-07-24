@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/gainsboro" >
+
+        <ImageView
+            android:id="@+id/finish"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/csx_sdk_zc_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="本地视频"
+            android:textColor="@color/my_light_red" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/door_root_content_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:visibility="visible" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/relative_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:src="@drawable/csx_sdk_zc_down" />
+
+        <TextView
+            android:id="@+id/relative_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="暂无离线视频"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/relative_text_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_text_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="缓存到本地无网也可以观看视频"
+            android:textColor="@color/darkgray"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+</LinearLayout>

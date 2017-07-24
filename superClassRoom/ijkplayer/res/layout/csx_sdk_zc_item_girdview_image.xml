@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zancheng.callphonevideoshow.tools.MyRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="172dp"
+        android:layout_height="129dp" 
+         android:scaleType="fitXY" 
+        />
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="64dp" 
+         android:scaleType="center" 
+         android:layout_alignBottom="@id/img"
+         android:src="@drawable/csx_sdk_zc_photo_background"
+         android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/girdview_icon"
+        android:layout_width="17dp"
+        android:layout_height="12dp" 
+        android:layout_alignBottom="@id/img"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/csx_sdk_zc_main_icon"
+        />
+    
+     <CheckBox
+         android:id="@+id/checkBox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="5dp"
+         android:layout_alignParentTop="true"
+         android:layout_alignRight="@+id/img"
+         android:visibility="gone"
+         />
+
+</com.zancheng.callphonevideoshow.tools.MyRevealLayout>

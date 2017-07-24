@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<include>
+	<store>
+		<data id="1" gold="300" countGold="900" rmb="5" oldRmb="40" name="有缘星缘宝典" isVisible="true" consumecode="02ANHk" productid="DG10"/>
+		<data id="3" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="有缘速配连连看" isVisible="true" consumecode="02AO00" productid="DG11"/>
+		<data id="4" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="有缘心语传情" isVisible="true" consumecode="02AOgE" productid="DG12"/> 
+		<!-- <data id="2" gold="600" countGold="1800" rmb="6" oldRmb="60" name="超级课堂歌们猜猜" isVisible="false"/>
+		<data id="5" gold="1200" countGold="3600" rmb="8" oldRmb="80" name="超级课堂成语接龙" isVisible="false"/> -->
+	</store>
+</include>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+
+<include>
+	<store>
+		<data id="1" gold="300" countGold="900" rmb="5" oldRmb="40" name="有缘星缘宝典" isVisible="true" consumecode="02ANHk" productid="DG10"/>
+		<data id="3" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="有缘速配连连看" isVisible="true" consumecode="02AO00" productid="DG11"/>
+		<data id="4" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="有缘心语传情" isVisible="true" consumecode="02AOgE" productid="DG12"/> 
+		<data id="1" gold="1000" countGold="900" rmb="10" oldRmb="40" name="会员包月" isVisible="true"/>
+		 <data id="2" gold="1500" countGold="1800" rmb="15" oldRmb="60" name="15元资费" isVisible="true"/> 
+		<!-- <data id="3" gold="1200" countGold="3600" rmb="20" oldRmb="80" name="金牌会员" isVisible="true"/>
+		<data id="4" gold="2000" countGold="6000" rmb="25" oldRmb="100" name="钻石会员" isVisible="true"/>
+		<data id="1" gold="300" countGold="900" rmb="5" oldRmb="40" name="超级课堂填字游戏" isVisible="true" consumecode="02AOxk" productid="DG03"/>
+		<data id="2" gold="1000" countGold="3000" rmb="6" oldRmb="70" name="超级课堂歌们猜猜" isVisible="true" consumecode="02AOO0" productid="DG04"/>
+		<data id="3" gold="1500" countGold="4500" rmb="8" oldRmb="90" name="超级课堂成语接龙" isVisible="true" consumecode="02AP6E" productid="DG05"/>
+		<data id="4" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="超级课堂国学世界" isVisible="true" consumecode="02APnk" productid="DG06"/>
+		<data id="5" gold="2000" countGold="6000" rmb="10" oldRmb="100" name="超级课堂疯狂算算" isVisible="true" consumecode="02APE0" productid="DG07"/>
+	</store>
+</include>
+ -->

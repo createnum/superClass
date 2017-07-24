@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/csx_sdk_zc_circle_button_for_toast"
+     >
+
+    <TextView
+        android:id="@+id/TextViewInfo"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:maxLines="1"
+        android:gravity="center"
+        android:text="你已绑定过手机号，数据同步完成"
+        android:textColor="#ff3399" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<include>
+
+    <store typeName="奋斗区" >
+
+        <data
+            id="1"
+            gold="0"
+            isRecommend="true"
+            path="snbzxdan.html"
+            title="少年包拯学断案" />
+
+        <data
+            id="2"
+            gold="0"
+            isRecommend="true"
+            path="wstbmkd.html"
+            title="万斯同闭门苦读" />
+
+        <data
+            id="3"
+            gold="0"
+            isRecommend="true"
+            path="tbhqxxh.html"
+            title="唐伯虎潜心学画" />
+
+        <data
+            id="4"
+            gold="0"
+            isRecommend="true"
+            path="cprrkds.html"
+            title="陈平忍辱苦读书" />
+
+        <data
+            id="5"
+            gold="0"
+            isRecommend="true"
+            path="lyqfcw.html"
+            title="陆羽弃佛从文" />
+
+        <data
+            id="6"
+            gold="100"
+            isRecommend="true"
+            path="ytsbsqx.html"
+            title="叶天士拜师谦学" />
+
+        <data
+            id="7"
+            gold="100"
+            isRecommend="true"
+            path="wxzygxz.html"
+            title="王献之依缸习字" />
+
+        <data
+            id="8"
+            gold="100"
+            isRecommend="true"
+            path="smgzjlz.html"
+            title="司马光警枕励志" />
+
+        <data
+            id="9"
+            gold="100"
+            isRecommend="true"
+            path="lgzxhh.html"
+            title="厉归真学画虎" />
+
+        <data
+            id="10"
+            gold="100"
+            isRecommend="true"
+            path="skmxbt.html"
+            title="沈括《梦溪笔谈》" />
+        <data
+            id="11"
+            gold="0"
+            isRecommend="true"
+            path="zhel.html"
+            title="周恩来" />
+
+        <data
+            id="12"
+            gold="0"
+            isRecommend="true"
+            path="ylch.html"
+            title="杨禄禅陈家沟学艺" />
+
+        <data
+            id="13"
+            gold="0"
+            isRecommend="true"
+            path="mzhx.html"
+            title="毛主席怎样读书？" />
+
+        <data
+            id="14"
+            gold="0"
+            isRecommend="true"
+            path="dzsmbky.html"
+            title="董仲舒目不窥园" />
+
+        <data
+            id="15"
+            gold="0"
+            isRecommend="true"
+            path="zhsf.html"
+            title="张三丰创太极" />
+
+        <data
+            id="16"
+            gold="100"
+            isRecommend="true"
+            path="zhglwzh.html"
+            title="诸葛亮喂鸡" />
+
+        <data
+            id="17"
+            gold="100"
+            isRecommend="true"
+            path="dmzhfdsh.html"
+            title="董明珠奋斗史" />
+
+        <data
+            id="18"
+            gold="100"
+            isRecommend="true"
+            path="al.html"
+            title="艾伦" />
+
+        <data
+            id="19"
+            gold="100"
+            isRecommend="true"
+            path="lyh.html"
+            title="李彦宏" />
+    </store>
+    <store typeName="学识区" >
+
+        <data
+            id="20"
+            gold="0"
+            isRecommend="true"
+            path="mk.html"
+            title="孟轲" />
+
+        <data
+            id="21"
+            gold="0"
+            isRecommend="true"
+            path="zh.html"
+            title="张衡" />
+
+        <data
+            id="22"
+            gold="0"
+            isRecommend="true"
+            path="sj.html"
+            title="孙敬" />
+
+        <data
+            id="23"
+            gold="0"
+            isRecommend="true"
+            path="sq.html"
+            title="苏秦" />
+
+        <data
+            id="24"
+            gold="0"
+            isRecommend="true"
+            path="zbtgkh.html"
+            title="凿壁偷光匡衡" />
+
+        <data
+            id="25"
+            gold="100"
+            isRecommend="true"
+            path="yx.html"
+            title="映雪囊萤  孙康 车胤" />
+
+        <data
+            id="26"
+            gold="100"
+            isRecommend="true"
+            path="smgda.html"
+            title="司马光读书" />
+
+        <data
+            id="27"
+            gold="100"
+            isRecommend="true"
+            path="sbq.html"
+            title="苏步青刻苦学习的故事" />
+
+        <data
+            id="28"
+            gold="100"
+            isRecommend="true"
+            path="slmxfs.html"
+            title="宋濂冒雪访师" />
+
+        <data
+            id="29"
+            gold="100"
+            isRecommend="true"
+            path="pslctlw.html"
+            title="蒲松龄草亭路问" />
+        <data
+            id="30"
+            gold="100"
+            isRecommend="true"
+            path="yjzhtym.html"
+            title="隐居者陶渊明" />
+        <data
+            id="31"
+            gold="0"
+            isRecommend="true"
+            path="tsbdjlzy.html"
+            title="唐宋八大家之一 柳宗元" />
+
+        <data
+            id="32"
+            gold="0"
+            isRecommend="true"
+            path="qljshlb.html"
+            title="青莲居士  李白" />
+
+        <data
+            id="33"
+            gold="0"
+            isRecommend="true"
+            path="shshdf.html"
+            title="“诗史”杜甫" />
+
+        <data
+            id="34"
+            gold="0"
+            isRecommend="true"
+            path="chlhy.html"
+            title="“昌黎韩愈”" />
+
+        <data
+            id="35"
+            gold="0"
+            isRecommend="true"
+            path="blqshouyx.html"
+            title="博览群书 欧阳修" />
+
+        <data
+            id="36"
+            gold="100"
+            isRecommend="true"
+            path="ymsyxs.html"
+            title="袁枚随园先生" />
+
+        <data
+            id="37"
+            gold="100"
+            isRecommend="true"
+            path="sfww.html"
+            title="“诗佛”王维" />
+
+        <data
+            id="38"
+            gold="100"
+            isRecommend="true"
+            path="cnzhwj.html"
+            title="才女 卓文君" />
+
+        <data
+            id="39"
+            gold="100"
+            isRecommend="true"
+            path="lrsh.html"
+            title="柳如是" />
+    </store>
+
+    <store typeName="经典区" >
+
+        <data
+            id="40"
+            gold="0"
+            isRecommend="true"
+            path="tbcy.html"
+            title="泰伯采药" />
+
+        <data
+            id="41"
+            gold="0"
+            isRecommend="true"
+            path="zxzs.html"
+            title="赵孝争死" />
+
+        <data
+            id="42"
+            gold="0"
+            isRecommend="true"
+            path="xwjd.html"
+            title="许武教弟" />
+
+        <data
+            id="43"
+            gold="0"
+            isRecommend="true"
+            path="jgdb.html"
+            title="姜肱大被" />
+
+        <data
+            id="44"
+            gold="0"
+            isRecommend="true"
+            path="mtzw.html"
+            title="缪彤自挝" />
+
+        <data
+            id="45"
+            gold="100"
+            isRecommend="true"
+            path="wlzj.html"
+            title="王览争鸠" />
+
+        <data
+            id="46"
+            gold="100"
+            isRecommend="true"
+            path="ygsy.html"
+            title="庚衮侍疫" />
+
+        <data
+            id="47"
+            gold="100"
+            isRecommend="true"
+            path="ljsd.html"
+            title="刘进束带" />
+
+        <data
+            id="48"
+            gold="100"
+            isRecommend="true"
+            path="nhbw.html"
+            title="牛弘不问" />
+
+        <data
+            id="49"
+            gold="100"
+            isRecommend="true"
+            path="tztj.html"
+            title="田真叹荆" />
+        <data
+            id="50"
+            gold="100"
+            isRecommend="true"
+            path="syt.html"
+            title="中国最后一位太监-孙耀庭" />
+        <data
+            id="51"
+            gold="0"
+            isRecommend="true"
+            path="zhbqjz.html"
+            title="郑板桥教子" />
+
+        <data
+            id="52"
+            gold="0"
+            isRecommend="true"
+            path="jxlmrzhsh.html"
+            title="纪晓岚的名人轶事二则" />
+
+        <data
+            id="53"
+            gold="0"
+            isRecommend="true"
+            path="hxkxzr.html"
+            title="韩信跨下之辱" />
+
+        <data
+            id="54"
+            gold="0"
+            isRecommend="true"
+            path="lpzhgmj.html"
+            title="廉颇 - 战国时期赵国名将" />
+
+        <data
+            id="55"
+            gold="0"
+            isRecommend="true"
+            path="blqshouyx.html"
+            title="博览群书 欧阳修" />
+
+        <data
+            id="56"
+            gold="100"
+            isRecommend="true"
+            path="yfmzyx.html"
+            title="岳飞 民族英雄" />
+
+        <data
+            id="57"
+            gold="100"
+            isRecommend="true"
+            path="cccwdjr.html"
+            title="曹操 - 东汉末年曹魏奠基人" />
+
+        <data
+            id="58"
+            gold="100"
+            isRecommend="true"
+            path="yqxshyy.html"
+            title="于谦 - 相声演员 " />
+    </store>
+
+    <store typeName="爱情区" >
+
+        <data
+            id="59"
+            gold="0"
+            isRecommend="true"
+            path="lzhd.html"
+            title="梁祝化蝶" />
+
+        <data
+            id="60"
+            gold="0"
+            isRecommend="true"
+            path="nlzn.html"
+            title="牛郎织女" />
+
+        <data
+            id="61"
+            gold="100"
+            isRecommend="true"
+            path="bsc.html"
+            title="白蛇传" />
+
+        <data
+            id="62"
+            gold="100"
+            isRecommend="true"
+            path="xxj.html"
+            title="长恨歌" />
+
+        <data
+            id="63"
+            gold="100"
+            isRecommend="true"
+            path="gym.html"
+            title="西厢记" />
+
+        <data
+            id="64"
+            gold="100"
+            isRecommend="true"
+            path="fqh.html"
+            title="凤求凰" />
+
+        <data
+            id="65"
+            gold="100"
+            isRecommend="true"
+            path="kqdnf.html"
+            title="孔雀东南飞" />
+
+        <data
+            id="66"
+            gold="100"
+            isRecommend="true"
+            path="txp.html"
+            title="天仙配" />
+
+        <data
+            id="67"
+            gold="100"
+            isRecommend="true"
+            path="ceby.html"
+            title="嫦娥奔月" />
+
+        <data
+            id="68"
+            gold="100"
+            isRecommend="true"
+            path="hlm.html"
+            title="《红楼梦》" />
+        
+        <data
+            id="69"
+            gold="100"
+            isRecommend="true"
+            path="jzhqandllzh.html"
+            title="焦仲卿与刘兰芝的爱情" />
+        <data
+            id="70"
+            gold="100"
+            isRecommend="true"
+            path="zhwjandsmxr.html"
+            title="卓文君与司马相如" />
+        <data
+            id="71"
+            gold="0"
+            isRecommend="true"
+            path="txzandygf.html"
+            title="唐玄宗和杨贵妃的绝世爱情" />
+
+        <data
+            id="72"
+            gold="0"
+            isRecommend="true"
+            path="xzhmandlxm.html"
+            title="徐志摩和陆小曼的故事" />
+
+        <data
+            id="73"
+            gold="0"
+            isRecommend="true"
+            path="lshhandxhm.html"
+            title="林淑华与徐惠民" />
+
+        <data
+            id="74"
+            gold="0"
+            isRecommend="true"
+            path="hsnadjdx.html"
+            title="包办婚姻中最幸福的爱情：胡适和江冬秀" />
+
+        <data
+            id="75"
+            gold="0"
+            isRecommend="true"
+            path="lxandxgp.html"
+            title="鲁迅和许广平的爱情 " />
+
+        <data
+            id="76"
+            gold="100"
+            isRecommend="true"
+            path="chygandt.html"
+            title="陈寅恪和唐筼：只是因为那是你，我愿生死相随" />
+
+    </store>
+   <store typeName="孝子区" >
+         <data
+            id="77"
+            gold="0"
+            isRecommend="true"
+            path="xgdt.html"
+            title="孝感动天" />
+
+        <data
+            id="78"
+            gold="0"
+            isRecommend="true"
+            path="qcty.html"
+            title="亲尝汤药" />
+
+        <data
+            id="79"
+            gold="0"
+            isRecommend="true"
+            path="cztx.html"
+            title="啮指痛心" />
+
+        <data
+            id="80"
+            gold="0"
+            isRecommend="true"
+            path="blfm.html"
+            title="百里负米" />
+
+        <data
+            id="81"
+            gold="0"
+            isRecommend="true"
+            path="lysm.html"
+            title="芦衣顺母" />
+
+        <data
+            id="82"
+            gold="100"
+            isRecommend="true"
+            path="lrfq.html"
+            title="鹿乳奉亲" />
+
+        <data
+            id="83"
+            gold="100"
+            isRecommend="true"
+            path="xcyq.html"
+            title="戏彩娱亲" />
+
+        <data
+            id="84"
+            gold="100"
+            isRecommend="true"
+            path="mszf.html"
+            title="卖身葬父" />
+
+        <data
+            id="85"
+            gold="100"
+            isRecommend="true"
+            path="kmsq.html"
+            title="刻木事亲" />
+
+        <data
+            id="86"
+            gold="100"
+            isRecommend="true"
+            path="xygm.html"
+            title="行佣供母" />
+        
+          <data
+            id="87"
+            gold="100"
+            isRecommend="true"
+            path="mefm.html"
+            title="埋儿奉母" />
+
+        <data
+            id="88"
+            gold="100"
+            isRecommend="true"
+            path="wlqm.html"
+            title="闻雷泣墓" />
+          <data
+            id="89"
+            gold="100"
+            isRecommend="true"
+            path="kzss.html"
+            title="哭竹生笋" />
+
+        <data
+            id="90"
+            gold="100"
+            isRecommend="true"
+            path="zwbx.html"
+            title="恣蚊饱血" />
+         <data
+            id="91"
+            gold="0"
+            isRecommend="true"
+            path="ssyq.html"
+            title="拾葚异器" />
+
+        <data
+            id="92"
+            gold="0"
+            isRecommend="true"
+            path="rgbt.html"
+            title="乳姑不怠" />
+
+        <data
+            id="93"
+            gold="0"
+            isRecommend="true"
+            path="hjyq.html"
+            title="怀橘遗亲" />
+
+        <data
+            id="94"
+            gold="0"
+            isRecommend="true"
+            path="cfyx.html"
+            title="尝粪忧心" />
+
+        <data
+            id="95"
+            gold="0"
+            isRecommend="true"
+            path="qgxm.html"
+            title="弃官寻母" />
+    </store> 
+
+</include>

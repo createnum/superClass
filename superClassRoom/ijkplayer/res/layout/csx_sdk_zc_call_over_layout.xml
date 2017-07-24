@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/overlay_answer_call_bt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/csx_sdk_zc_jieting_new" />
+
+    <Button
+        android:id="@+id/overlay_end_call_bt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/csx_sdk_zc_guaduan_new" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="未知"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/overlay_end_call_message_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="64.5dp"
+        android:background="@drawable/csx_sdk_zc_message" />
+
+    <Button
+        android:id="@+id/overlay_mute"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="65.5dp"	
+        android:background="@drawable/csx_sdk_zc_novoice" />
+
+    <Button
+        android:id="@+id/overlay_speaker"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/csx_sdk_zc_speaker"
+        android:layout_alignBottom="@id/overlay_end_call_bt"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/overlay_keyboard"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/csx_sdk_zc_keyboard_on"
+        android:layout_alignBottom="@id/overlay_end_call_bt"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/lv_show_message"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:background="@drawable/csx_sdk_zc_circle_button_vip" />
+
+        <TextView
+            android:id="@+id/cancle_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/lv_show_message"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/csx_sdk_zc_circle_button_vip"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+</RelativeLayout>

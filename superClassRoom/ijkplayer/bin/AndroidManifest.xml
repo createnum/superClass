@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zancheng.callphonevideoshow.sdk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <!-- 开机自启动 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 呼出电话状态监听权限 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <!-- 挂断手机的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 读取手机状态的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 系统级弹窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 解锁的权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 亮屏的权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 网络操作的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 通知栏不显示下载进度需要添加的权限 -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <!-- 读取系统日志 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />  
+    <!-- 发短信 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.zancheng.callphonevideoshow.Test"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.zancheng.ijkplayer.MainActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait" /> 
+        <activity
+            android:name="com.zancheng.callphonevideoshow.SDKMain"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait" /> 
+        <activity
+            android:name="com.likebamboo.phoneshow.widget.overlayActivity.OverLayActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleInstance"
+            android:process=":phoneStateService"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zancheng.callphonevideoshow.show.videoShow.MyShow"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name="com.zancheng.callphonevideoshow.show.videoShow.MyCard"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <!-- <activity
+            android:name="com.zancheng.ijkplayer.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"  >
+        </activity> -->
+        <activity
+            android:name="com.zancheng.callphonevideoshow.show.commonShow.loadVideos.CommonVideoActivityHasRecommend"
+            android:configChanges="orientation|keyboardHidden|screenSize" 
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <receiver
+            android:name="com.zancheng.callphonevideoshow.show.commonShow.Receiver"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.zc.video.downFinish" />
+                <action android:name="com.zc.setFriendVideo.selectFinish" />
+                <action android:name="com.zc.setFriendVideo.finish" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.likebamboo.phoneshow.ScreenService"
+            android:label="@string/app_name" >
+        </service>
+        <service
+            android:name="com.likebamboo.phoneshow.phoneStateService"
+            android:process=":phoneStateService" />
+        <service android:name="com.likebamboo.phoneshow.WatchService" />
+    </application>
+	<uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

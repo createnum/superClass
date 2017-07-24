@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学霸养成</string>
+    <string name="version">v1.0</string>
+    <string name="company">北京赞成科技发展有限公司</string>
+    <string name="servicephone">010-84543920</string>
+    <string  name="qq">12345678</string>
+    <string  name="zcweb_appid">4742</string>
+    <string  name="zcweb_pid">ZCZY</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="return_message">返回</string>
+    <string name="type">类型</string>
+    
+    <string name="userCenterTitle">我的</string>
+    <string name="userBought">我的购买</string>
+    <string name="userCollection">我的收藏</string>
+    <string name="userVip">会员特权</string>
+    <string name="about">关于</string>
+    <string name="set">个性装扮</string>
+    
+    <string name="kait_vip">开通会员</string>
+    
+    <string name="mrdl">每日登录即可获得</string>
+    <string name="ljhd">累计可获得</string>
+    <string name="oldP">原价￥60.00</string>
+    <string name="newP">现价￥20.00</string>
+    
+    <string name="ddxg">低调效果</string>
+    <string name="fgxg">复古效果</string>
+    <string name="hbxg">黑白效果</string>
+    <string name="hjxg">怀旧效果</string>
+    <string name="rlxg">日落效果</string>
+    <string name="ybxg">原版效果</string>
+    
+    <string name="accessNo">10655571</string>
+</resources>

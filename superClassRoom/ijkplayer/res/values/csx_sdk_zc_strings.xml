@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">彩视秀SDK</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_special">活动</string>
+    <string name="descr_image">Image</string>
+
+    <string name="myshow">我的彩秀</string>
+    <string name="friendshow">好友彩秀</string>
+    <string name="showcard">彩秀名片</string>
+
+    <string name="sure">确定</string>
+    <string name="back">返回</string>
+    <string name="myvideo">我的视频</string>
+    <string name="localvideo">本地视频</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="network_disable">网络不可用</string>
+    <string name="time_out">请求超时</string>
+    <string name="call_reject">拒接</string>
+    <string name="call_answer">接听</string>
+    <string name="call_mute">静音</string>
+    <string name="call_message">信息</string>
+    <string name="call_ringing">来电</string>
+    <string name="city_loc">经度：%1$s <Data><![CDATA[ </br> ]]></Data>纬度%1$s</string>
+    <string name="call_ringing_msg">来电:%1$s</string>
+    <string name="percent">%</string>
+    <string name="show_type_activity_msg">以Activity的形式显示来电秀</string>
+    <string name="show_type_full_dialog_msg">以全屏弹窗的形式显示来电秀</string>
+    <string name="show_type_half_dialog_msg">自定义来电秀显示的高度(%)</string>
+    
+    <string name="confirm">确定</string>
+    <string name="canel">取消</string>
+    
+    
+    <string name="message_one">现在无法接听，有什么事吗？</string>
+    <string name="message_two">我马上会打给你</string>
+    <string name="message_three">我稍后会再打给你</string>
+    <string name="message_four">现在无法接听。能稍后再打给我吗？</string>
+    
+    
+</resources>

@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<include>
+
+    <store typeName="有缘星缘宝典" >
+
+        <data
+            id="1"
+            gold="0"
+            isRecommend="true"
+            path="xzjpg.html"
+            title="爱你到海枯石烂的痴情星座" />
+
+        <data
+            id="2"
+            gold="0"
+            isRecommend="true"
+            path="bdyl.html"
+            title="细数深情不及久伴的星座" />
+
+        <data
+            id="3"
+            gold="0"
+            isRecommend="true"
+            path="bkdd.html"
+            title="12星座爱情里遇到哪些挫" />
+
+        <data
+            id="4"
+            gold="0"
+            isRecommend="true"
+            path="fshl.html"
+            title="12星座在恋爱中应避免啥" />
+
+        <data
+            id="5"
+            gold="0"
+            isRecommend="true"
+            path="hqzx.html"
+            title="星座浅说，舒淇与冯德伦" />
+
+        <data
+            id="6"
+            gold="100"
+            isRecommend="true"
+            path="lbbk.html"
+            title="12星座失恋会选择咋面对" />
+
+        <data
+            id="7"
+            gold="100"
+            isRecommend="true"
+            path="ldtj.html"
+            title="12星座单身男相亲体验" />
+
+        <data
+            id="8"
+            gold="100"
+            isRecommend="true"
+            path="wqzg.html"
+            title="你和什么星座最配" />
+
+        <data
+            id="9"
+            gold="100"
+            isRecommend="true"
+            path="wsjb.html"
+            title="十二星座速配" />
+
+        <data
+            id="10"
+            gold="100"
+            isRecommend="true"
+            path="yjsd.html"
+            title="女生追男生星座攻略" />
+
+        <data
+            id="11"
+            gold="100"
+            isRecommend="true"
+            path="ymbb.html"
+            title="星座与性格" />
+
+        <data
+            id="12"
+            gold="100"
+            isRecommend="true"
+            path="ycww.html"
+            title="金牛座速配" />
+
+        <data
+            id="13"
+            gold="100"
+            isRecommend="true"
+            path="hdxb.html"
+            title="2017年星座情感运势" />
+
+        <data
+            id="14"
+            gold="100"
+            isRecommend="true"
+            path="mrmx.html"
+            title="巨蟹座男生的性格" />
+
+        <data
+            id="15"
+            gold="100"
+            isRecommend="true"
+            path="tcmz.html"
+            title="天蝎座女生的性格" />
+
+      <!--   <data
+            id="16"
+            gold="100"
+            isRecommend="true"
+            path="wjqw.html"
+            title="闻鸡起舞" />
+
+        <data
+            id="17"
+            gold="100"
+            isRecommend="true"
+            path="wxcd.html"
+            title="卧薪尝胆" />
+
+        <data
+            id="18"
+            gold="100"
+            isRecommend="true"
+            path="wybl.html"
+            title="亡羊补牢" />
+
+        <data
+            id="19"
+            gold="100"
+            isRecommend="true"
+            path="yedl.html"
+            title="掩耳盗铃" />
+
+        <data
+            id="20"
+            gold="100"
+            isRecommend="true"
+            path="ygys.html"
+            title="愚公移山" /> -->
+    </store>
+
+    <store typeName="有缘速配连连看" >
+
+        <data
+            id="21"
+            gold="0"
+            isRecommend="true"
+            path="zyysqg.html"
+            title="周易如何测算现在的婚姻" />
+
+        <data
+            id="22"
+            gold="0"
+            isRecommend="true"
+            path="dq.html"
+            title="十二生肖的桃花姻缘＿12生肖的对象分析" />
+
+        <data
+            id="23"
+            gold="0"
+            isRecommend="true"
+            path="drj.html"
+            title="属鼠人的桃花姻缘_生肖虎的对象分析" />
+
+        <data
+            id="24"
+            gold="0"
+            isRecommend="true"
+            path="gw.html"
+            title="属牛人的桃花姻缘_生肖牛的对象分析" />
+
+        <data
+            id="25"
+            gold="0"
+            isRecommend="true"
+            path="lb.html"
+            title="属虎人的桃花姻缘_生肖虎的对象分析" />
+
+        <data
+            id="26"
+            gold="100"
+            isRecommend="true"
+            path="lgz.html"
+            title="属兔人的桃花姻缘_生肖兔的对象分析" />
+
+        <data
+            id="27"
+            gold="100"
+            isRecommend="true"
+            path="oyx.html"
+            title="属龙人的桃花姻缘_生肖龙的对象分析" />
+
+        <data
+            id="28"
+            gold="100"
+            isRecommend="true"
+            path="qcj.html"
+            title="属蛇人的桃花姻缘_生肖蛇的对象分析" />
+
+        <data
+            id="29"
+            gold="100"
+            isRecommend="true"
+            path="sdp.html"
+            title="属马人的桃花姻缘_生肖马的对象分析" />
+
+        <data
+            id="30"
+            gold="100"
+            isRecommend="true"
+            path="tmz.html"
+            title="属羊人的桃花姻缘_生肖羊的对象分析" />
+
+        <data
+            id="31"
+            gold="100"
+            isRecommend="true"
+            path="yf.html"
+            title="属猴人的桃花姻缘_生肖猴的对象分析" />
+
+        <data
+            id="32"
+            gold="100"
+            isRecommend="true"
+            path="ads.html"
+            title="属鸡人的桃花姻缘_生肖鸡的对象分析" />
+
+        <data
+            id="33"
+            gold="100"
+            isRecommend="true"
+            path="gyw.html"
+            title="属狗人的桃花姻缘_生肖狗的对象分析" />
+
+        <data
+            id="34"
+            gold="100"
+            isRecommend="true"
+            path="jhc.html"
+            title="属猪人的桃花姻缘_生肖猪的对象分析" />
+
+        <!-- <data
+            id="35"
+            gold="100"
+            isRecommend="true"
+            path="kl.html"
+            title="孔融" />
+
+        <data
+            id="36"
+            gold="100"
+            isRecommend="true"
+            path="lx.html"
+            title="鲁迅" />
+
+        <data
+            id="37"
+            gold="100"
+            isRecommend="true"
+            path="ly.html"
+            title="陆游" />
+
+        <data
+            id="38"
+            gold="100"
+            isRecommend="true"
+            path="wtx.html"
+            title="文天祥" />
+
+        <data
+            id="39"
+            gold="100"
+            isRecommend="true"
+            path="yy.html"
+            title="晏婴" />
+
+        <data
+            id="40"
+            gold="100"
+            isRecommend="true"
+            path="zcg.html"
+            title="郑成功" /> -->
+    </store>
+
+    <store typeName="有缘心语传情" >
+
+        <data
+            id="41"
+            gold="0"
+            isRecommend="true"
+            path="nhjzt.html"
+            title="你和金字塔尖的人儿差在哪儿" />
+
+        <data
+            id="42"
+            gold="0"
+            isRecommend="true"
+            path="efgf.html"
+            title="每一次努力都有隐藏的意义" />
+
+        <data
+            id="43"
+            gold="0"
+            isRecommend="true"
+            path="lsm.html"
+            title="每天对自己说一遍，我是幸运儿" />
+
+        <data
+            id="44"
+            gold="0"
+            isRecommend="true"
+            path="csb.html"
+            title="摘月的手，至少不会脏" />
+
+        <data
+            id="45"
+            gold="0"
+            isRecommend="true"
+            path="pdjn.html"
+            title="不是没想过放弃，就觉得还能再坚持" />
+
+        <data
+            id="46"
+            gold="100"
+            isRecommend="true"
+            path="qx.html"
+            title="发现没？你所担心的事往往会发生" />
+
+        <data
+            id="47"
+            gold="100"
+            isRecommend="true"
+            path="sx.html"
+            title="孩子，不要抱怨读书苦，那是你去看世界的路" />
+
+        <data
+            id="48"
+            gold="100"
+            isRecommend="true"
+            path="wlxsz.html"
+            title="自己不能展露光芒，就不要怪别人没眼光" />
+
+        <data
+            id="49"
+            gold="100"
+            isRecommend="true"
+            path="yylj.html"
+            title="为什么说绝大多数人都是“低品质勤奋者‘’" />
+
+        <data
+            id="50"
+            gold="100"
+            isRecommend="true"
+            path="zjfqwnj.html"
+            title="不是努力无用，而是你把努力看得太重" />
+
+        <data
+            id="51"
+            gold="100"
+            isRecommend="true"
+            path="als.html"
+            title="工作多年，还挣不到钱？" />
+
+        <data
+            id="52"
+            gold="100"
+            isRecommend="true"
+            path="gqlxc.html"
+            title="你都不敢去想，成功怎么敢不请自来呢" />
+
+        <data
+            id="53"
+            gold="100"
+            isRecommend="true"
+            path="ltjx.html"
+            title="精致生活，从你与她的屋子开始" />
+
+        <data
+            id="54"
+            gold="100"
+            isRecommend="true"
+            path="lxebr.html"
+            title="见识的少，才会得过且过" />
+
+        <data
+            id="55"
+            gold="100"
+            isRecommend="true"
+            path="lzd.html"
+            title="见识的少，才会得过且过" />
+
+        <data
+            id="56"
+            gold="100"
+            isRecommend="true"
+            path="ss.html"
+            title="没有一个转折，会彻底毁掉你的人生" />
+
+        <data
+            id="57"
+            gold="100"
+            isRecommend="true"
+            path="swsm.html"
+            title="所有的迷茫，都源于你是半吊子" />
+
+        <data
+            id="58"
+            gold="100"
+            isRecommend="true"
+            path="tq.html"
+            title="所有的迷茫，都源于你是半吊子" />
+
+        <data
+            id="59"
+            gold="100"
+            isRecommend="true"
+            path="twgx.html"
+            title="你为什么总是情绪疲惫" />
+
+        <data
+            id="60"
+            gold="100"
+            isRecommend="true"
+            path="ywsyy.html"
+            title="你为什么总是情绪疲惫？" />
+    </store>
+
+  <!--   <store typeName="超级课堂疯狂算算" >
+
+        <data
+            id="61"
+            gold="0"
+            isRecommend="true"
+            path="cs.html"
+            title="出塞" />
+
+        <data
+            id="62"
+            gold="0"
+            isRecommend="true"
+            path="dyly.html"
+            title="登游乐原" />
+
+        <data
+            id="63"
+            gold="100"
+            isRecommend="true"
+            path="dgx.html"
+            title="短歌行" />
+
+        <data
+            id="64"
+            gold="100"
+            isRecommend="true"
+            path="gch.html"
+            title="观沧海" />
+
+        <data
+            id="65"
+            gold="100"
+            isRecommend="true"
+            path="gym.html"
+            title="观刈麦" />
+
+        <data
+            id="66"
+            gold="100"
+            isRecommend="true"
+            path="jx.html"
+            title="江雪" />
+
+        <data
+            id="67"
+            gold="100"
+            isRecommend="true"
+            path="mwwqfspg.html"
+            title="茅屋为秋风所破歌" />
+
+        <data
+            id="68"
+            gold="100"
+            isRecommend="true"
+            path="mytmylb.html"
+            title="梦游天姥吟留别" />
+
+        <data
+            id="69"
+            gold="100"
+            isRecommend="true"
+            path="wy.html"
+            title="望岳" />
+
+        <data
+            id="70"
+            gold="100"
+            isRecommend="true"
+            path="wwclzqlbyycj.html"
+            title="闻王昌龄左迁龙标遥有此寄" />
+
+        <data
+            id="71"
+            gold="0"
+            isRecommend="true"
+            path="bxgswpgwj.html"
+            title="白雪歌送武判官归京" />
+
+        <data
+            id="72"
+            gold="0"
+            isRecommend="true"
+            path="gldy.html"
+            title="过零丁洋" />
+
+        <data
+            id="73"
+            gold="0"
+            isRecommend="true"
+            path="qjj.html"
+            title="将进酒" />
+
+        <data
+            id="74"
+            gold="0"
+            isRecommend="true"
+            path="qm.html"
+            title="清明" />
+
+        <data
+            id="75"
+            gold="0"
+            isRecommend="true"
+            path="qthcx.html"
+            title="钱塘湖春行" />
+
+        <data
+            id="76"
+            gold="100"
+            isRecommend="true"
+            path="sdgt.html"
+            title="水调歌头" />
+
+        <data
+            id="77"
+            gold="100"
+            isRecommend="true"
+            path="sjqm.html"
+            title="山居秋暝" />
+
+        <data
+            id="78"
+            gold="100"
+            isRecommend="true"
+            path="xkx.html"
+            title="侠客行" />
+
+        <data
+            id="79"
+            gold="100"
+            isRecommend="true"
+            path="ysxc.html"
+            title="游山西村" />
+
+        <data
+            id="80"
+            gold="100"
+            isRecommend="true"
+            path="mh.html"
+            title="梅花" />
+         <data
+            id="61"
+            gold="0"
+            isRecommend="true"
+            path="cs.html"
+            title="百鸡问题" />
+
+        <data
+            id="62"
+            gold="0"
+            isRecommend="true"
+            path="dyly.html"
+            title="鸡兔同笼" />
+
+        <data
+            id="63"
+            gold="100"
+            isRecommend="true"
+            path="dgx.html"
+            title="李白买酒" />
+
+        <data
+            id="64"
+            gold="100"
+            isRecommend="true"
+            path="gch.html"
+            title="两鼠穿墙" />
+
+        <data
+            id="65"
+            gold="100"
+            isRecommend="true"
+            path="gym.html"
+            title="百羊问题" />
+
+        <data
+            id="66"
+            gold="100"
+            isRecommend="true"
+            path="jx.html"
+            title="韩信点兵" />
+
+        <data
+            id="67"
+            gold="100"
+            isRecommend="true"
+            path="mwwqfspg.html"
+            title="蝴蝶效应" />
+         <data
+            id="68"
+            gold="100"
+            isRecommend="true"
+            path="mytmylb.html"
+            title="刁藩都的墓志铭" />
+
+        <data
+            id="69"
+            gold="100"
+            isRecommend="true"
+            path="gdbjcx_1.html"
+            title="哥德巴赫猜想" />
+
+        <data
+            id="70"
+            gold="100"
+            isRecommend="true"
+            path="wwclzqlbyycj.html"
+            title="招侦察员" />
+
+        <data
+            id="71"
+            gold="0"
+            isRecommend="true"
+            path="gwdzs_1.html"
+            title="国王的重赏" />
+
+        <data
+            id="72"
+            gold="0"
+            isRecommend="true"
+            path="gldy.html"
+            title="不说话的学术报告" />
+
+        <data
+            id="73"
+            gold="0"
+            isRecommend="true"
+            path="qjj.html"
+            title="王子的数学题" />
+
+        <data
+            id="74"
+            gold="0"
+            isRecommend="true"
+            path="qm.html"
+            title="公主出题" />
+
+        <data
+            id="75"
+            gold="0"
+            isRecommend="true"
+            path="qthcx.html"
+            title="马塔尼茨基的算术题" />
+
+        <data
+            id="76"
+            gold="100"
+            isRecommend="true"
+            path="sdgt.html"
+            title="布哈斯卡尔的算术题" />
+            
+    </store> -->
+     <store typeName="暂未开启，敬请期待！" >
+     </store>
+
+</include>

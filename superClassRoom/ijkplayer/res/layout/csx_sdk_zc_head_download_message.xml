@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="172dp"
+        android:layout_height="129dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/spot"
+        android:layout_width="172dp"
+        android:layout_height="129dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/csx_sdk_zc_down_yinying" />
+
+    <com.zancheng.callphonevideoshow.assembly.RoundProgressBar
+        android:id="@+id/roundProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/img"
+        android:layout_alignRight="@id/img"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="57dp"
+        android:alpha="0.6"
+        ptr:roundColor="@color/transparent"
+        ptr:roundProgressColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/my_white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/csx_sdk_zc_up_yinying"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="我的"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/csx_sdk_zc_current_voice" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:text="当前铃声"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/effshowVideoViewLL"
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:layout_below="@id/title"
+                android:background="@color/black" >
+
+                <com.zancheng.ijkplayer.widget.media.IjkVideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+
+                <com.zancheng.callphonevideoshow.show.commonShow.VerticalSeekBar
+                    android:id="@+id/verticalSeekBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:maxHeight="7dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/csx_sdk_zc_player_setting_bright_progressbar"
+                    android:thumb="@drawable/transparent_background"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/voice_add"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_above="@id/verticalSeekBar"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/csx_sdk_zc_voice_add"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/voice_down"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_below="@id/verticalSeekBar"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/csx_sdk_zc_voice_down"
+                    android:visibility="gone" />
+
+                <com.zancheng.callphonevideoshow.show.commonShow.VerticalSeekBar
+                    android:id="@+id/verticalSeekBar_screen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:maxHeight="7dp"
+                    android:layout_marginRight="30dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/csx_sdk_zc_player_setting_bright_progressbar"
+                    android:thumb="@drawable/transparent_background"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/screen_add"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_above="@id/verticalSeekBar_screen"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/csx_sdk_zc_screen_add"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/screen_down"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/verticalSeekBar_screen"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/csx_sdk_zc_screen_down"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/icon_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:background="@drawable/transparent_background"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/stop_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/csx_sdk_zc_start" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/csx_sdk_zc_down_yinying"
+                    android:layout_alignParentBottom="true" >
+
+                    <TextView
+                        android:id="@+id/time_start"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="00:00" />
+
+                    <ImageView
+                        android:id="@+id/startvideo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/csx_sdk_zc_pause"
+                        android:visibility="gone" />
+
+                    <SeekBar
+                        android:id="@+id/seekbar"
+                        android:layout_width="0dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingTop="2dp"
+                        android:layout_weight="8"
+                        android:maxHeight="7dp"
+                        android:max="100"
+                        android:progressDrawable="@drawable/csx_sdk_zc_player_setting_bright_progressbar"
+                        android:thumb="@drawable/transparent_background" />
+
+                    <TextView
+                        android:id="@+id/time_end"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="/00:00" />
+
+                    <ImageView
+                        android:id="@+id/fullScreen"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:src="@drawable/csx_sdk_zc_fullscreen" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/top_mine"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/csx_sdk_zc_up_yinying" >
+
+                <TextView
+                    android:id="@+id/name_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="彩秀铃声"
+                    android:textColor="@color/gray"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/back_img"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/csx_sdk_zc_back" />
+
+                <TextView
+                    android:id="@+id/voice_preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="铃声预览"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/csx_sdk_zc_myvoice" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/img"
+                android:text="我的铃库"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:text="更换铃声"
+                android:textColor="@color/my_light_red"
+                android:textSize="12dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/download"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/csx_sdk_zc_white_picture"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/download"
+                android:layout_centerVertical="true"
+                android:src="@drawable/csx_sdk_zc_downloading" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img"
+                android:layout_toRightOf="@+id/imageView2"
+                android:textColor="@color/black"
+                android:text="下载列表" />
+
+        </RelativeLayout>
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="5dp" 
+             android:background="@color/my_white" >
+
+             <com.handmark.pulltorefresh.library.PullToRefreshGridView
+                 xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                 android:id="@+id/pull_refresh_grid"
+                 android:layout_width="match_parent"
+                 android:layout_height="fill_parent"
+                 android:columnWidth="175dp"
+                 android:gravity="fill"
+                 android:horizontalSpacing="10dp"
+                 android:numColumns="2"
+                 android:stretchMode="columnWidth"
+                 android:verticalSpacing="10dp"
+                 ptr:ptrDrawable="@drawable/default_ptr_rotate"
+                 ptr:ptrListViewExtrasEnabled="false"
+                 ptr:ptrMode="pullFromEnd" >
+             </com.handmark.pulltorefresh.library.PullToRefreshGridView>
+         </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/set_light"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gainsboro"
+        android:gravity="center"
+        android:text="设置铃声"
+        android:textColor="@color/my_light_red"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
