@@ -3,11 +3,11 @@
 
     <string name="app_name">学霸养成</string>
     <string name="version">v1.0</string>
-    <string name="company">北京赞成科技发展有限公司</string>
-    <string name="servicephone">010-84543920</string>
+    <string name="company">公司名称</string>
+    <string name="servicephone">客服电话</string>
     <string  name="qq">12345678</string>
     <string  name="zcweb_appid">4742</string>
-    <string  name="zcweb_pid">ZCZY</string>
+    <string  name="zcweb_pid"></string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
